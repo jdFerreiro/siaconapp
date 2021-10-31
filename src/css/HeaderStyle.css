@@ -1,0 +1,17 @@
+
+#header {
+    font-family: "Pacifico";
+    margin-bottom: 5px;
+    background: #7db9e8; /* Old browsers */
+    background: -moz-linear-gradient(top,  #7db9e8 0%, #c0d4e2 35%, #ffffff 75%, #ffffff 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #7db9e8 0%,#c0d4e2 35%,#ffffff 75%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #7db9e8 0%,#c0d4e2 35%,#ffffff 75%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+    background-image: url("../assets/building.png"), linear-gradient(to bottom,  #7db9e8 0%,#c0d4e2 35%,#ffffff 75%,#ffffff 100%);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+#header h5 {
+    float: right;
+}

@@ -1,0 +1,32 @@
+* {
+  margin: 0px;
+  margin-top: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+html{
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  min-width: 800px;
+}
+
+#app {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-width: 800px;
+}
+
+#container {
+  width: 99%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.subheader {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.p10-right {
+  padding-right: 10px;
+}
