@@ -1,4 +1,5 @@
 import { createStore } from 'vuex';
+import VuexPersistence from 'vuex-persist';
 import router from '@/router';
 
 const storage = createStore({
@@ -32,6 +33,11 @@ const storage = createStore({
             router.push("/login");
         }
     },
+    plugins: [
+        new VuexPersistence({
+            storage: window.localStorage
+        }).plugin
+    ],
 });
 
 export default storage;
